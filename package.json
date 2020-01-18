@@ -1,9 +1,26 @@
 {
   "name": "@bmatei/eslint-config",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Configurations for ESLint",
   "author": "Bogdan Matei <bogdan@matei.dev>",
   "license": "MIT",
   "homepage": "https://github.com/bfmatei/eslint-config#readme",
-  "repository": "github:bfmatei/eslint-config"
+  "repository": "github:bfmatei/eslint-config",
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "gitDir": "../",
+    "*.json": [
+      "prettier --write",
+      "git add"
+    ]
+  },
+  "devDependencies": {
+    "husky": "4.0.10",
+    "lint-staged": "9.5.0",
+    "prettier": "1.19.1"
+  }
 }

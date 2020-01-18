@@ -23,7 +23,7 @@
     "@typescript-eslint/tslint/config": [
       "error",
       {
-        "lintFile": "./eslint/angular.tslint.json"
+        "lintFile": "./angular.tslint.json"
       }
     ]
   }

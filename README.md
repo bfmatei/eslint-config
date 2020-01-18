@@ -1,7 +1,5 @@
 # ESLint Configuration
 
-## Version 1.0.1
-
 ## Versions
 
 - `eslint` - 6.8.0
