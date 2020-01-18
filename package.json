@@ -1,0 +1,9 @@
+{
+  "name": "@bmatei/eslint-config",
+  "version": "1.0.0",
+  "description": "Configurations for ESLint",
+  "author": "Bogdan Matei <bogdan@matei.dev>",
+  "license": "MIT",
+  "homepage": "https://github.com/bfmatei/eslint-config#readme",
+  "repository": "github:bfmatei/eslint-config"
+}
