@@ -1,6 +1,5 @@
 {
   "defaultSeverity": "error",
-  "rulesDirectory": ["../node_modules/codelyzer"],
   "rules": {
     "angular-whitespace": false,
     "template-banana-in-box": true,
