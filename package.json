@@ -1,6 +1,6 @@
 {
   "name": "@bmatei/eslint-config",
-  "version": "1.0.4",
+  "version": "1.0.6",
   "description": "Configurations for ESLint",
   "author": "Bogdan Matei <bogdan@matei.dev>",
   "license": "MIT",
@@ -19,8 +19,8 @@
     ]
   },
   "devDependencies": {
-    "husky": "4.0.10",
-    "lint-staged": "9.5.0",
+    "husky": "4.2.1",
+    "lint-staged": "10.0.7",
     "prettier": "1.19.1"
   }
 }

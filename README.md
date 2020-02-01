@@ -3,11 +3,11 @@
 ## Versions
 
 - `eslint` - 6.8.0
-- `eslint-config-prettier` - 6.9.0
+- `eslint-config-prettier` - 6.10.0
 - `prettier` - 1.19.1
-- `@typescript-eslint/eslint-plugin` - 2.16.0
-- `@typescript-eslint/eslint-plugin-tslint` - 2.16.0
-- `@typescript-eslint/parser` - 2.16.0
+- `@typescript-eslint/eslint-plugin` - 2.18.0
+- `@typescript-eslint/eslint-plugin-tslint` - 2.18.0
+- `@typescript-eslint/parser` - 2.18.0
 - `codelyzer` - 5.2.1
 
 ## How to Update
@@ -40,6 +40,7 @@
 - `block-scoped-var` - disabled - `no-var`
 - `class-methods-use-this` - disabled since we don't want to enforce static members in classes
 - `curly` - disabled - Prettier
+- `default-param-last` - disabled - TypeScript
 - `default-case` - can be omitted locally with `// No Default`
 - `dot-location` - disabled - Prettier
 - `no-empty-function` - disabled - TypeScript
@@ -52,6 +53,7 @@
 - `no-magic-numbers` - disabled - TypeScript
 - `no-multi-spaces` - disabled - Prettier
 - `no-redeclare` - disabled - `no-var` and TypeScript
+- `no-return-await` - disabled - TypeScript
 - `no-restricted-properties` - disabled since we don't have anything to restrict
 - `no-unused-expressions` - disabled - TypeScript
 - `no-unused-labels` - disabled - `no-labels`
@@ -99,7 +101,7 @@
 - `brace-style` - disabled - Prettier, TypeScript
 - `camelcase` - disabled - TypeScript
 - `comma-dangle` - disabled - Prettier
-- `comma-spacing` - disabled - Prettier
+- `comma-spacing` - disabled - Prettier, TypeScript
 - `comma-style` - disabled - Prettier
 - `computed-property-spacing` - disabled - Prettier
 - `consistent-this` - disabled since we use target clean contexts
@@ -181,6 +183,7 @@
 ### TypeScript
 
 - `@typescript-eslint/brace-style` - disabled - Prettier
+- `@typescript-eslint/comma-spacing` - disabled - Prettier
 - `@typescript-eslint/func-call-spacing` - disabled - Prettier
 - `@typescript-eslint/indent` - disabled - Prettier
 - `@typescript-eslint/generic-type-naming` - disabled since we don't want to enforce naming on types
@@ -189,10 +192,11 @@
 - `@typescript-eslint/member-ordering` - this can be improved drastically
 - `@typescript-eslint/naming-convention` - disabled - `@typescript-eslint/camelcase`
 - `@typescript-eslint/no-explicit-any` - disabled since we allow any
+- `@typescript-eslint/explicit-module-boundary-types` - disabled since we want consistent return types
 - `@typescript-eslint/no-extra-parens` - disabled - Prettier
 - `@typescript-eslint/no-extra-semi` - disabled - Prettier
 - `@typescript-eslint/no-floating-promises` - disabled - Angular
-- `@typescript-eslint/no-untyped-public-signature` - disabled since we want consistent return types
+- `@typescript-eslint/no-untyped-public-signature` - disabled - `explicit-module-boundary-types`
 - `@typescript-eslint/no-unused-vars` - disabled since this is reported by compiler
 - `@typescript-eslint/no-unused-vars-experimental` - disabled since this is reported by compiler
 - `@typescript-eslint/no-use-before-define` - disabled since this is reported by compiler
