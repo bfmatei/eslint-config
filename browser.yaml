@@ -1,0 +1,7 @@
+$schema: 'http://json.schemastore.org/eslintrc'
+
+extends:
+  - ./base.yaml
+
+env:
+  browser: true

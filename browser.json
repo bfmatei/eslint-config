@@ -1,7 +1,0 @@
-{
-  "$schema": "http://json.schemastore.org/eslintrc",
-  "extends": ["./base.json"],
-  "env": {
-    "browser": true
-  }
-}

@@ -1,6 +1,6 @@
 {
   "name": "@bmatei/eslint-config",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Configurations for ESLint",
   "author": "Bogdan Matei <bogdan@matei.dev>",
   "license": "MIT",
@@ -13,7 +13,7 @@
   },
   "lint-staged": {
     "gitDir": "../",
-    "*.json": [
+    "*.{json,yaml}": [
       "prettier --write",
       "git add"
     ]
