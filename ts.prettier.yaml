@@ -1,6 +1,7 @@
 $schema: 'http://json.schemastore.org/eslintrc'
 
 extends:
+  - ./prettier.yaml
   - ./ts.yaml
 
 rules:

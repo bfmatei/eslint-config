@@ -2,7 +2,6 @@ $schema: 'http://json.schemastore.org/eslintrc'
 
 extends:
   - ./browser.yaml
-  - ./prettier.yaml
   - ./ts.prettier.yaml
 
 env:
@@ -24,6 +23,8 @@ rules:
         - node_modules
         - rxjs/Rx
         - zone.js/dist/zone-error
+
+  # TypeScript
   '@typescript-eslint/no-floating-promises': 'off'
   '@typescript-eslint/promise-function-async': 'off'
   '@typescript-eslint/tslint/config':

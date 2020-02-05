@@ -196,6 +196,7 @@
 - `@typescript-eslint/no-extra-parens` - disabled - Prettier
 - `@typescript-eslint/no-extra-semi` - disabled - Prettier
 - `@typescript-eslint/no-floating-promises` - disabled - Angular
+- `@typescript-eslint/no-unnecessary-condition` - disabled since we allow certain conditions
 - `@typescript-eslint/no-untyped-public-signature` - disabled - `explicit-module-boundary-types`
 - `@typescript-eslint/no-unused-vars` - disabled since this is reported by compiler
 - `@typescript-eslint/no-unused-vars-experimental` - disabled since this is reported by compiler
@@ -204,6 +205,7 @@
 - `@typescript-eslint/prefer-namespace-keyword` - disabled since we don't use namespace
 - `@typescript-eslint/promise-function-async` - disabled - Angular
 - `@typescript-eslint/quotes` - disabled - Prettier
+- `@typescript-eslint/return-await` - disabled - NestJS
 - `@typescript-eslint/semi` - disabled - Prettier
 - `@typescript-eslint/space-before-function-paren` - disabled - Prettier
 - `@typescript-eslint/type-annotation-spacing` - disabled - Prettier
