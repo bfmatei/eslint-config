@@ -2,5 +2,8 @@
 .idea
 .vscode
 node_modules
-.prettierrc
+.huskyrc.yaml
+.lintstagedrc.yaml
+.prettierrc.yaml
+CHANGELOG.md
 *.iml
