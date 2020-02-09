@@ -1,4 +1,6 @@
+.circleci
 .idea
 .vscode
 node_modules
 .prettierrc
+*.iml
