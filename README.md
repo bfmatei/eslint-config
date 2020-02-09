@@ -196,6 +196,7 @@
 - `@typescript-eslint/no-extra-parens` - disabled - Prettier
 - `@typescript-eslint/no-extra-semi` - disabled - Prettier
 - `@typescript-eslint/no-floating-promises` - disabled - Angular
+- `@typescript-eslint/no-magic-numbers` - disabled - NestJS
 - `@typescript-eslint/no-unnecessary-condition` - disabled since we allow certain conditions
 - `@typescript-eslint/no-untyped-public-signature` - disabled - `explicit-module-boundary-types`
 - `@typescript-eslint/no-unused-vars` - disabled since this is reported by compiler
