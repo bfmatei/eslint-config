@@ -9,18 +9,8 @@
   "scripts": {
     "semantic-release": "semantic-release"
   },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
-  },
-  "lint-staged": {
-    "gitDir": "../",
-    "*.{json,yaml}": [
-      "prettier --write"
-    ]
-  },
   "devDependencies": {
+    "@semantic-release/changelog": "5.0.0",
     "husky": "4.2.1",
     "lint-staged": "10.0.7",
     "prettier": "1.19.1",
