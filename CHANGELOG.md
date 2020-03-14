@@ -1,3 +1,10 @@
+## [1.0.13](https://github.com/bfmatei/eslint-config/compare/v1.0.12...v1.0.13) (2020-02-22)
+
+
+### Bug Fixes
+
+* update [@typescript-eslint](https://github.com/typescript-eslint) ([cb6f425](https://github.com/bfmatei/eslint-config/commit/cb6f42577bc34b4fbb8629630d6bf095d7ff5391))
+
 ## [1.0.12](https://github.com/bfmatei/eslint-config/compare/v1.0.11...v1.0.12) (2020-02-09)
 
 
