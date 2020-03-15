@@ -1,3 +1,10 @@
+## [1.0.18](https://github.com/bfmatei/eslint-config/compare/v1.0.17...v1.0.18) (2020-03-15)
+
+
+### Bug Fixes
+
+* disable no-unsafe-call ([b670a29](https://github.com/bfmatei/eslint-config/commit/b670a299ca96b00aec846411de5cd72548ca399f))
+
 ## [1.0.17](https://github.com/bfmatei/eslint-config/compare/v1.0.16...v1.0.17) (2020-03-15)
 
 
