@@ -1,3 +1,10 @@
+## [1.0.17](https://github.com/bfmatei/eslint-config/compare/v1.0.16...v1.0.17) (2020-03-15)
+
+
+### Bug Fixes
+
+* fix no-underscore-dangle ([ab0bec7](https://github.com/bfmatei/eslint-config/commit/ab0bec78a3b03e02b03a1e0b7b26811d1dc6818a))
+
 ## [1.0.16](https://github.com/bfmatei/eslint-config/compare/v1.0.15...v1.0.16) (2020-03-15)
 
 
