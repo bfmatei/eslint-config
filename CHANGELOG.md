@@ -1,3 +1,12 @@
+## [1.0.16](https://github.com/bfmatei/eslint-config/compare/v1.0.15...v1.0.16) (2020-03-15)
+
+
+### Bug Fixes
+
+* allow tslint comments ([b5d78be](https://github.com/bfmatei/eslint-config/commit/b5d78beba58c1afda6016742686333d976408e45))
+* allow underscore dangle in classes ([b07eeee](https://github.com/bfmatei/eslint-config/commit/b07eeee0e22ee965e4ce4eafa220945101b59a5e))
+* disable readonly parameter types ([2bc7683](https://github.com/bfmatei/eslint-config/commit/2bc7683e97c8d431da8f46ec747bef20a44c14fa))
+
 ## [1.0.15](https://github.com/bfmatei/eslint-config/compare/v1.0.14...v1.0.15) (2020-03-14)
 
 
