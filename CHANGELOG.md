@@ -1,3 +1,11 @@
+## [1.0.19](https://github.com/bfmatei/eslint-config/compare/v1.0.18...v1.0.19) (2020-03-15)
+
+
+### Bug Fixes
+
+* disable no-unsafe-member-access ([be95397](https://github.com/bfmatei/eslint-config/commit/be95397dc813fcda53bda61dcc691264264e4fa5))
+* disable no-unsafe-return ([1f3cd81](https://github.com/bfmatei/eslint-config/commit/1f3cd81097c07037736e49e08c5bc02edee4975e))
+
 ## [1.0.18](https://github.com/bfmatei/eslint-config/compare/v1.0.17...v1.0.18) (2020-03-15)
 
 
