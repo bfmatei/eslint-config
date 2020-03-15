@@ -200,6 +200,7 @@
 - `@typescript-eslint/no-magic-numbers` - disabled - NestJS
 - `@typescript-eslint/no-unnecessary-condition` - disabled since we allow certain conditions
 - `@typescript-eslint/no-untyped-public-signature` - disabled - `explicit-module-boundary-types`
+- `@typescript-eslint/no-unsafe-call` - disabled as it is too strict
 - `@typescript-eslint/no-unused-vars` - disabled since this is reported by compiler
 - `@typescript-eslint/no-unused-vars-experimental` - disabled since this is reported by compiler
 - `@typescript-eslint/no-use-before-define` - disabled since this is reported by compiler
