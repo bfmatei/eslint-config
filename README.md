@@ -205,6 +205,7 @@
 - `@typescript-eslint/no-use-before-define` - disabled since this is reported by compiler
 - `@typescript-eslint/no-useless-constructor` - disabled since we use dependency injection
 - `@typescript-eslint/prefer-namespace-keyword` - disabled since we don't use namespace
+- `@typescript-eslint/prefer-readonly-parameter-types` - disabled since it is very verbose
 - `@typescript-eslint/promise-function-async` - disabled - Angular
 - `@typescript-eslint/quotes` - disabled - Prettier
 - `@typescript-eslint/return-await` - disabled - NestJS
