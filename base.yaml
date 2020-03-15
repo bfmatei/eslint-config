@@ -233,6 +233,7 @@ rules:
   capitalized-comments:
     - error
     - always
+    - ignorePattern: 'tslint'
   comma-dangle: error
   comma-spacing: error
   comma-style: error
