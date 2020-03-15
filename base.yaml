@@ -327,8 +327,8 @@ rules:
   no-underscore-dangle:
     - error
     - allowAfterThis: true
-    - allowAfterSuper: true
-    - allowAfterThisConstructor: true
+      allowAfterSuper: true
+      allowAfterThisConstructor: true
   no-unneeded-ternary: error
   no-whitespace-before-property: 'off'
   nonblock-statement-body-position: 'off'
