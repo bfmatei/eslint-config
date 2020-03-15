@@ -202,6 +202,7 @@
 - `@typescript-eslint/no-untyped-public-signature` - disabled - `explicit-module-boundary-types`
 - `@typescript-eslint/no-unsafe-call` - disabled as it is too strict
 - `@typescript-eslint/no-unsafe-member-access` - disabled as it is too strict
+- `@typescript-eslint/no-unsafe-return` - disabled as it is too strict
 - `@typescript-eslint/no-unused-vars` - disabled since this is reported by compiler
 - `@typescript-eslint/no-unused-vars-experimental` - disabled since this is reported by compiler
 - `@typescript-eslint/no-use-before-define` - disabled since this is reported by compiler
