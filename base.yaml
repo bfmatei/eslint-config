@@ -323,7 +323,11 @@ rules:
   no-tabs: error
   no-ternary: 'off'
   no-trailing-spaces: 'off'
-  no-underscore-dangle: error
+  no-underscore-dangle:
+    - error
+    - allowAfterThis: true
+    - allowAfterSuper: true
+    - allowAfterThisConstructor: true
   no-unneeded-ternary: error
   no-whitespace-before-property: 'off'
   nonblock-statement-body-position: 'off'
