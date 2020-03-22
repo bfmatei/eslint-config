@@ -3,11 +3,11 @@
 ## Versions
 
 - `eslint` - 6.8.0
-- `eslint-config-prettier` - 6.10.0
-- `prettier` - 1.19.1
-- `@typescript-eslint/eslint-plugin` - 2.23.0
-- `@typescript-eslint/eslint-plugin-tslint` - 2.23.0
-- `@typescript-eslint/parser` - 2.23.0
+- `eslint-config-prettier` - 6.10.1
+- `prettier` - 2.0.1
+- `@typescript-eslint/eslint-plugin` - 2.24.0
+- `@typescript-eslint/eslint-plugin-tslint` - 2.24.0
+- `@typescript-eslint/parser` - 2.24.0
 - `codelyzer` - 5.2.1
 - `tslint` - 6.1.0
 
