@@ -88,6 +88,7 @@ rules:
           fixWith: symbol
   '@typescript-eslint/brace-style': error
   '@typescript-eslint/camelcase': error
+  '@typescript-eslint/class-literal-property-style': 'off'
   '@typescript-eslint/class-name-casing': error
   '@typescript-eslint/comma-spacing': error
   '@typescript-eslint/consistent-type-assertions':

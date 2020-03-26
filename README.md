@@ -4,7 +4,7 @@
 
 - `eslint` - 6.8.0
 - `eslint-config-prettier` - 6.10.1
-- `prettier` - 2.0.1
+- `prettier` - 2.0.2
 - `@typescript-eslint/eslint-plugin` - 2.24.0
 - `@typescript-eslint/eslint-plugin-tslint` - 2.24.0
 - `@typescript-eslint/parser` - 2.24.0
@@ -184,6 +184,7 @@
 ### TypeScript
 
 - `@typescript-eslint/brace-style` - disabled - Prettier
+- `@typescript-eslint/class-literal-property-style` - disabled since we don't want to enforce a particular style
 - `@typescript-eslint/comma-spacing` - disabled - Prettier
 - `@typescript-eslint/func-call-spacing` - disabled - Prettier
 - `@typescript-eslint/indent` - disabled - Prettier
