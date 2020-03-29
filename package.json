@@ -2,6 +2,16 @@
   "name": "@bmatei/eslint-config",
   "version": "0.0.0-development",
   "description": "Configurations for ESLint.",
+  "keywords": [
+    "angular",
+    "codelyzer",
+    "eslint",
+    "linter",
+    "prettier",
+    "tslint",
+    "typescript",
+    "typescript-eslint"
+  ],
   "author": "Bogdan Matei <bogdan@matei.dev>",
   "license": "MIT",
   "homepage": "https://github.com/bfmatei/eslint-config#readme",
