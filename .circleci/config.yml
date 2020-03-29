@@ -10,7 +10,7 @@ jobs:
           key: dependencies-{{ checksum "package.json" }}
       - run:
           name: install
-          command: npm i
+          command: npm i --no-save
       - run:
           name: release
           command: npm run semantic-release || true
@@ -23,5 +23,4 @@ jobs:
 workflows:
   release:
     jobs:
-      - init
       - release
