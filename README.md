@@ -5,10 +5,10 @@
 - `eslint` - 6.8.0
 - `eslint-config-prettier` - 6.10.1
 - `prettier` - 2.0.2
-- `@typescript-eslint/eslint-plugin` - 2.24.0
-- `@typescript-eslint/eslint-plugin-tslint` - 2.24.0
-- `@typescript-eslint/parser` - 2.24.0
-- `codelyzer` - 5.2.1
+- `@typescript-eslint/eslint-plugin` - 2.26.0
+- `@typescript-eslint/eslint-plugin-tslint` - 2.26.0
+- `@typescript-eslint/parser` - 2.26.0
+- `codelyzer` - 5.2.2
 - `tslint` - 6.1.0
 
 ## How to Update
