@@ -1,3 +1,10 @@
+## [1.0.22](https://github.com/bfmatei/eslint-config/compare/v1.0.21...v1.0.22) (2020-03-31)
+
+
+### Bug Fixes
+
+* bump dependencies ([3058114](https://github.com/bfmatei/eslint-config/commit/3058114607d9a0284293dcc3c71da0d6483dd403))
+
 ## [1.0.21](https://github.com/bfmatei/eslint-config/compare/v1.0.20...v1.0.21) (2020-03-26)
 
 
