@@ -1,32 +1,17 @@
 # ESLint Configuration
+This package aims at creating universal configurations for ESLint that restricts the coding standards as much as possible. It is inspired but various rules packages but compiles everything into only one, dependency-free package.
 
 ## Versions
-
-- `eslint` - 6.8.0
-- `eslint-config-prettier` - 6.10.1
-- `prettier` - 2.0.2
 - `@typescript-eslint/eslint-plugin` - 2.26.0
 - `@typescript-eslint/eslint-plugin-tslint` - 2.26.0
 - `@typescript-eslint/parser` - 2.26.0
 - `codelyzer` - 5.2.2
+- `eslint` - 6.8.0
+- `prettier` - 2.0.2
 - `tslint` - 6.1.0
 
-## How to Update
-
-- Check changelog of each project
-- Check `eslint-config-prettier`
-  - `index.js` - General rules
-  - `@typescript-eslint.js` - TypeScript rules
-- Check `@typescript-eslint/eslint-plugin`
-  - `typescript-eslint/packages/eslint-plugin/src/configs/`
-    - `all.json` - General rules
-    - `eslint-recommended.ts` - Rules checked by TypeScript
-    - `recommended.json` - Recommended rules
-
 ## Rules Details
-
 ### Possible Errors
-
 - `getter-return` - disabled - TypeScript
 - `no-dupe-args` - disabled - TypeScript
 - `no-dupe-keys` - disabled - TypeScript
@@ -37,7 +22,6 @@
 - `valid-typeof` - disabled - TypeScript
 
 ### Best Practices
-
 - `block-scoped-var` - disabled - `no-var`
 - `class-methods-use-this` - disabled since we don't want to enforce static members in classes
 - `curly` - disabled - Prettier
@@ -67,11 +51,9 @@
 - `wrap-iife` - disabled - Prettier
 
 ### Strict Mode
-
 - `strict` - Strict mode is implied by default but disabled in TypeScript since we use `alwaysStrict` flag in `tsconfig.json`
 
 ### Variables
-
 - `init-declarations` - disabled since we don't want to enforce variables initialization
 - `no-label-var` - disabled - `no-labels`
 - `no-restricted-globals` - disabled since we don't have anything to restrict
@@ -80,7 +62,6 @@
 - `no-use-before-define` - disabled - `no-var`, ES6 and TypeScript
 
 ### Node.js and CommonJS
-
 - `callback-return` - disabled - Node
 - `global-require` - disabled - Node
 - `handle-callback-err` - disabled - Node
@@ -94,7 +75,6 @@
 - `no-sync` - disabled - Node
 
 ### Stylistic Issues
-
 - `array-bracket-newline` - disabled - Prettier
 - `array-bracket-spacing` - disabled - Prettier
 - `array-element-newline` - disabled - Prettier
@@ -163,7 +143,6 @@
 - `wrap-regex` - disabled since we don't want to wrap RegEx expressions and Prettier
 
 ### ECMAScript 6
-
 - `arrow-body-style` - disabled - Prettier
 - `arrow-parens` - disabled - Prettier
 - `arrow-spacing` - disabled - Prettier
@@ -182,7 +161,6 @@
 - `yield-star-spacing` - disabled - Prettier
 
 ### TypeScript
-
 - `@typescript-eslint/brace-style` - disabled - Prettier
 - `@typescript-eslint/class-literal-property-style` - disabled since we don't want to enforce a particular style
 - `@typescript-eslint/comma-spacing` - disabled - Prettier
@@ -218,3 +196,6 @@
 - `@typescript-eslint/type-annotation-spacing` - disabled - Prettier
 - `@typescript-eslint/strict-boolean-expressions` - disabled since we want to allow short checks
 - `@typescript-eslint/typedef` - this should be updated accordingly
+
+## Inspired by:
+- [eslint-config-prettier - 6.10.1](https://github.com/prettier/eslint-config-prettier)
