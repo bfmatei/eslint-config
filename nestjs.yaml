@@ -9,5 +9,4 @@ env:
 
 rules:
   # TypeScript
-  '@typescript-eslint/no-magic-numbers': 'off'
   '@typescript-eslint/return-await': 'off'

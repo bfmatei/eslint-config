@@ -119,6 +119,7 @@ rules:
         - instance-field
         - static-method
         - instance-method
+  '@typescript-eslint/method-signature-style': error
   '@typescript-eslint/naming-convention': 'off'
   '@typescript-eslint/no-base-to-string': error
   '@typescript-eslint/no-array-constructor': error
@@ -136,12 +137,7 @@ rules:
   '@typescript-eslint/no-for-in-array': error
   '@typescript-eslint/no-implied-eval': error
   '@typescript-eslint/no-inferrable-types': error
-  '@typescript-eslint/no-magic-numbers':
-    - error
-    - enforceConst: true
-      ignoreArrayIndexes: true
-      ignoreReadonlyClassProperties: true
-      ignoreEnums: true
+  '@typescript-eslint/no-magic-numbers': 'off'
   '@typescript-eslint/no-misused-new': error
   '@typescript-eslint/no-misused-promises': error
   '@typescript-eslint/no-namespace': error

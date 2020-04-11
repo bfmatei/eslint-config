@@ -2,12 +2,12 @@
 This package aims at creating universal configurations for ESLint that restricts the coding standards as much as possible. It is inspired but various rules packages but compiles everything into only one, dependency-free package.
 
 ## Versions
-- `@typescript-eslint/eslint-plugin` - 2.26.0
-- `@typescript-eslint/eslint-plugin-tslint` - 2.26.0
-- `@typescript-eslint/parser` - 2.26.0
+- `@typescript-eslint/eslint-plugin` - 2.27.0
+- `@typescript-eslint/eslint-plugin-tslint` - 2.27.0
+- `@typescript-eslint/parser` - 2.27.0
 - `codelyzer` - 5.2.2
 - `eslint` - 6.8.0
-- `prettier` - 2.0.2
+- `prettier` - 2.0.4
 - `tslint` - 6.1.0
 
 ## Rules Details
@@ -176,7 +176,7 @@ This package aims at creating universal configurations for ESLint that restricts
 - `@typescript-eslint/no-extra-parens` - disabled - Prettier
 - `@typescript-eslint/no-extra-semi` - disabled - Prettier
 - `@typescript-eslint/no-floating-promises` - disabled - Angular
-- `@typescript-eslint/no-magic-numbers` - disabled - NestJS
+- `@typescript-eslint/no-magic-numbers` - disabled as there are multiple edge cases where this can't be avoided and the code becomes extremely verbose
 - `@typescript-eslint/no-unnecessary-condition` - disabled since we allow certain conditions
 - `@typescript-eslint/no-untyped-public-signature` - disabled - `explicit-module-boundary-types`
 - `@typescript-eslint/no-unsafe-call` - disabled as it is too strict
