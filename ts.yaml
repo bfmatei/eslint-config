@@ -23,6 +23,7 @@ rules:
 
   # Best Practices
   default-param-last: 'off'
+  dot-notation: 'off'
   no-empty-function: 'off'
   no-implied-eval: 'off'
   no-magic-numbers: 'off'
@@ -36,6 +37,7 @@ rules:
   strict: 'off'
 
   # Variables
+  init-declarations: 'off'
   no-undef: 'off'
   no-unused-vars: 'off'
   no-use-before-define: 'off'
@@ -99,6 +101,7 @@ rules:
     - error
     - interface
   '@typescript-eslint/default-param-last': error
+  '@typescript-eslint/dot-notation': error
   '@typescript-eslint/explicit-function-return-type': 'off'
   '@typescript-eslint/explicit-member-accessibility':
     - error
@@ -109,6 +112,8 @@ rules:
   '@typescript-eslint/indent':
     - error
     - 2
+  '@typescript-eslint/init-declarations': error
+  '@typescript-eslint/keyword-spacing': error
   '@typescript-eslint/interface-name-prefix': error
   '@typescript-eslint/member-delimiter-style': error
   '@typescript-eslint/member-naming': 'off'
@@ -137,6 +142,7 @@ rules:
   '@typescript-eslint/no-for-in-array': error
   '@typescript-eslint/no-implied-eval': error
   '@typescript-eslint/no-inferrable-types': error
+  '@typescript-eslint/no-invalid-void-type': error
   '@typescript-eslint/no-magic-numbers': 'off'
   '@typescript-eslint/no-misused-new': error
   '@typescript-eslint/no-misused-promises': error

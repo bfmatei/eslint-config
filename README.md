@@ -2,13 +2,13 @@
 This package aims at creating universal configurations for ESLint that restricts the coding standards as much as possible. It is inspired but various rules packages but compiles everything into only one, dependency-free package.
 
 ## Versions
-- `@typescript-eslint/eslint-plugin` - 2.28.0
-- `@typescript-eslint/eslint-plugin-tslint` - 2.28.0
+- `@typescript-eslint/eslint-plugin` - 2.30.0
+- `@typescript-eslint/eslint-plugin-tslint` - 2.30.0
 - `@typescript-eslint/parser` - 2.28.0
 - `codelyzer` - 5.2.2
 - `eslint` - 6.8.0
-- `prettier` - 2.0.4
-- `tslint` - 6.1.0
+- `prettier` - 2.0.5
+- `tslint` - 6.1.2
 
 ## Rules Details
 ### Possible Errors
@@ -28,6 +28,7 @@ This package aims at creating universal configurations for ESLint that restricts
 - `default-param-last` - disabled - TypeScript
 - `default-case` - can be omitted locally with `// No Default`
 - `dot-location` - disabled - Prettier
+- `dot-notation` - disabled - TypeScript
 - `no-empty-function` - disabled - TypeScript
 - `no-eq-null` - disabled - `eqeqeq`
 - `no-extra-label` - disabled - `no-labels`
@@ -54,7 +55,7 @@ This package aims at creating universal configurations for ESLint that restricts
 - `strict` - Strict mode is implied by default but disabled in TypeScript since we use `alwaysStrict` flag in `tsconfig.json`
 
 ### Variables
-- `init-declarations` - disabled since we don't want to enforce variables initialization
+- `init-declarations` - disabled since we don't want to enforce variables initialization, TypeScript
 - `no-label-var` - disabled - `no-labels`
 - `no-restricted-globals` - disabled since we don't have anything to restrict
 - `no-undef` - disabled - TypeScript
@@ -97,7 +98,7 @@ This package aims at creating universal configurations for ESLint that restricts
 - `indent` - disabled - Prettier, TypeScript
 - `jsx-quotes` - disabled - Prettier
 - `key-spacing` - disabled - Prettier
-- `keyword-spacing` - disabled - Prettier
+- `keyword-spacing` - disabled - Prettier, TypeScript
 - `line-comment-position` - disabled since we allow line comments everywhere
 - `linebreak-style` - disabled - Prettier
 - `lines-around-comment` - disabled - Prettier
@@ -168,6 +169,8 @@ This package aims at creating universal configurations for ESLint that restricts
 - `@typescript-eslint/func-call-spacing` - disabled - Prettier
 - `@typescript-eslint/generic-type-naming` - disabled since we don't want to enforce naming on types
 - `@typescript-eslint/indent` - disabled - Prettier
+- `@typescript-eslint/init-declarations` - disabled since we don't want to enforce variables initialization
+- `@typescript-eslint/keyword-spacing` - disabled - Prettier
 - `@typescript-eslint/member-delimiter-style` - disabled - Prettier
 - `@typescript-eslint/member-naming` - disabled since we don't want to enforce certain naming
 - `@typescript-eslint/member-ordering` - this can be improved drastically
@@ -200,4 +203,4 @@ This package aims at creating universal configurations for ESLint that restricts
 - `@typescript-eslint/typedef` - this should be updated accordingly
 
 ## Inspired by:
-- [eslint-config-prettier - 6.10.1](https://github.com/prettier/eslint-config-prettier)
+- [eslint-config-prettier - 6.11.0](https://github.com/prettier/eslint-config-prettier)
