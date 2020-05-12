@@ -2,11 +2,12 @@
 This package aims at creating universal configurations for ESLint that restricts the coding standards as much as possible. It is inspired but various rules packages but compiles everything into only one, dependency-free package.
 
 ## Versions
-- `@typescript-eslint/eslint-plugin` - 2.30.0
-- `@typescript-eslint/eslint-plugin-tslint` - 2.30.0
-- `@typescript-eslint/parser` - 2.28.0
-- `codelyzer` - 5.2.2
-- `eslint` - 6.8.0
+- `@typescript-eslint/eslint-plugin` - 2.32.0
+- `@typescript-eslint/eslint-plugin-tslint` - 2.32.0
+- `@typescript-eslint/parser` - 2.32.0
+- `codelyzer` - 5.2.3
+- `eslint` - 7.0.0
+- `eslint-plugin-node` - not implemented yet
 - `prettier` - 2.0.5
 - `tslint` - 6.1.2
 
@@ -61,19 +62,6 @@ This package aims at creating universal configurations for ESLint that restricts
 - `no-undef` - disabled - TypeScript
 - `no-unused-vars` - disabled - `no-var`, ES6 and TypeScript
 - `no-use-before-define` - disabled - `no-var`, ES6 and TypeScript
-
-### Node.js and CommonJS
-- `callback-return` - disabled - Node
-- `global-require` - disabled - Node
-- `handle-callback-err` - disabled - Node
-- `no-buffer-constructor` - disabled - Node
-- `no-mixed-requires` - disabled - Node
-- `no-new-require` - disabled - Node
-- `no-path-concat` - disabled - Node
-- `no-process-env` - disabled - Node
-- `no-process-exit` - disabled - Node
-- `no-restricted-modules` - disabled since we don't have anything to restrict
-- `no-sync` - disabled - Node
 
 ### Stylistic Issues
 - `array-bracket-newline` - disabled - Prettier
@@ -153,6 +141,7 @@ This package aims at creating universal configurations for ESLint that restricts
 - `no-const-assign` - disabled - TypeScript
 - `no-duple-class-members` - disabled - TypeScript
 - `no-new-symbol` - disabled - TypeScript
+- `no-restricted-exports` - disabled since there's nothing to restrict
 - `no-this-before-super` - disabled - TypeScript
 - `no-useless-constructor` - disabled since we use dependency injection and TypeScript
 - `prefer-arrow-callback` - disabled - Prettier

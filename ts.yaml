@@ -26,6 +26,7 @@ rules:
   dot-notation: 'off'
   no-empty-function: 'off'
   no-implied-eval: 'off'
+  no-invalid-this: 'off'
   no-magic-numbers: 'off'
   no-redeclare: 'off'
   no-return-await: 'off'
@@ -142,6 +143,7 @@ rules:
   '@typescript-eslint/no-for-in-array': error
   '@typescript-eslint/no-implied-eval': error
   '@typescript-eslint/no-inferrable-types': error
+  '@typescript-eslint/no-invalid-this': error
   '@typescript-eslint/no-invalid-void-type': error
   '@typescript-eslint/no-magic-numbers': 'off'
   '@typescript-eslint/no-misused-new': error
