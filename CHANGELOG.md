@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/bfmatei/eslint-config/compare/v1.1.0...v1.2.0) (2020-08-02)
+
+
+### Features
+
+* Update rules ([54c94bd](https://github.com/bfmatei/eslint-config/commit/54c94bdd4ede66da3c066dd4e9dc58b781a164fe))
+
 # [1.1.0](https://github.com/bfmatei/eslint-config/compare/v1.0.26...v1.1.0) (2020-05-12)
 
 
