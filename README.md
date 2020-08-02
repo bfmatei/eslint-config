@@ -2,14 +2,14 @@
 This package aims at creating universal configurations for ESLint that restricts the coding standards as much as possible. It is inspired but various rules packages but compiles everything into only one, dependency-free package.
 
 ## Versions
-- `@typescript-eslint/eslint-plugin` - 2.32.0
-- `@typescript-eslint/eslint-plugin-tslint` - 2.32.0
-- `@typescript-eslint/parser` - 2.32.0
+- `@typescript-eslint/eslint-plugin` - 3.7.1
+- `@typescript-eslint/eslint-plugin-tslint` - 3.7.1
+- `@typescript-eslint/parser` - 3.7.1
 - `codelyzer` - 5.2.3
-- `eslint` - 7.0.0
+- `eslint` - 7.6.0
 - `eslint-plugin-node` - not implemented yet
 - `prettier` - 2.0.5
-- `tslint` - 6.1.2
+- `tslint` - 6.1.3
 
 ## Rules Details
 ### Possible Errors
@@ -18,8 +18,14 @@ This package aims at creating universal configurations for ESLint that restricts
 - `no-dupe-keys` - disabled - TypeScript
 - `no-extra-parens` - disabled - Prettier, TypeScript
 - `no-extra-semi` - disabled - Prettier, TypeScript
+- `no-func-assign` - disabled - TypeScript
+- `no-import-assign` - disabled - TypeScript
+- `no-loss-of-precision` - disabled - TypeScript
+- `no-obj-calls` - disabled - TypeScript
+- `no-setter-return` - disabled - TypeScript
 - `no-unexpected-multiline` - disabled - Prettier
 - `no-unreachable` - disabled - TypeScript
+- `no-unsafe-negation` - disabled - TypeScript
 - `valid-typeof` - disabled - TypeScript
 
 ### Best Practices
@@ -35,7 +41,6 @@ This package aims at creating universal configurations for ESLint that restricts
 - `no-extra-label` - disabled - `no-labels`
 - `no-floating-decimal` - disabled - Prettier
 - `no-implicit-globals` - disabled - `no-var` and using ES6 modules
-- `no-implied-eval` - disabled - TypeScript
 - `no-invalid-this` - disabled - Angular
 - `no-magic-numbers` - disabled - TypeScript
 - `no-multi-spaces` - disabled - Prettier
@@ -90,6 +95,7 @@ This package aims at creating universal configurations for ESLint that restricts
 - `line-comment-position` - disabled since we allow line comments everywhere
 - `linebreak-style` - disabled - Prettier
 - `lines-around-comment` - disabled - Prettier
+- `lines-between-class-members` - disabled - TypeScript
 - `max-len` - disabled - Prettier
 - `multiline-comment-style` - disabled since we allow both types of multiline comments
 - `multiline-ternary` - disabled - Prettier
@@ -154,27 +160,23 @@ This package aims at creating universal configurations for ESLint that restricts
 - `@typescript-eslint/brace-style` - disabled - Prettier
 - `@typescript-eslint/class-literal-property-style` - disabled since we don't want to enforce a particular style
 - `@typescript-eslint/comma-spacing` - disabled - Prettier
-- `@typescript-eslint/explicit-module-boundary-types` - disabled since we want consistent return types
+- `@typescript-eslint/explicit-module-boundary-types` - disabled since types are enforced on a global level
 - `@typescript-eslint/func-call-spacing` - disabled - Prettier
-- `@typescript-eslint/generic-type-naming` - disabled since we don't want to enforce naming on types
 - `@typescript-eslint/indent` - disabled - Prettier
 - `@typescript-eslint/init-declarations` - disabled since we don't want to enforce variables initialization
 - `@typescript-eslint/keyword-spacing` - disabled - Prettier
 - `@typescript-eslint/member-delimiter-style` - disabled - Prettier
-- `@typescript-eslint/member-naming` - disabled since we don't want to enforce certain naming
 - `@typescript-eslint/member-ordering` - this can be improved drastically
-- `@typescript-eslint/naming-convention` - disabled - `@typescript-eslint/camelcase`
 - `@typescript-eslint/no-explicit-any` - disabled since we allow any
 - `@typescript-eslint/no-extra-parens` - disabled - Prettier
 - `@typescript-eslint/no-extra-semi` - disabled - Prettier
 - `@typescript-eslint/no-floating-promises` - disabled - Angular
 - `@typescript-eslint/no-magic-numbers` - disabled as there are multiple edge cases where this can't be avoided and the code becomes extremely verbose
-- `@typescript-eslint/no-unnecessary-condition` - disabled since we allow certain conditions
+- `@typescript-eslint/no-unnecessary-condition` - disabled for regular mode, but enabled for strict mode
 - `@typescript-eslint/no-unsafe-assignment` - disabled since we allow any
 - `@typescript-eslint/no-unsafe-call` - disabled as it is too strict
 - `@typescript-eslint/no-unsafe-member-access` - disabled as it is too strict
 - `@typescript-eslint/no-unsafe-return` - disabled as it is too strict
-- `@typescript-eslint/no-untyped-public-signature` - disabled - `explicit-module-boundary-types`
 - `@typescript-eslint/no-unused-vars` - disabled since this is reported by compiler
 - `@typescript-eslint/no-unused-vars-experimental` - disabled since this is reported by compiler
 - `@typescript-eslint/no-use-before-define` - disabled since this is reported by compiler
